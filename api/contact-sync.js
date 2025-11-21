@@ -1,7 +1,7 @@
 // api/contact-sync.js
 // This is a Vercel serverless function that acts as a proxy
 
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxB0qig1OMHC3_cuzHSyVi_D98UESAHlDc9kFFBGCpoITxbShYCZ7RcZKmccCW9WY6p/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzbJiOjVShxg-xHTsxdF-1wsNBDh9ivDnra89c6P1YZIfY38S_oAFyvL3R6kk3Yp-P8/exec";
 
 export default async function handler(req, res) {
   // Enable CORS
@@ -60,6 +60,7 @@ export default async function handler(req, res) {
     });
   }
 }
+
 
 
 
